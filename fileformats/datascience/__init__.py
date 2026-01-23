@@ -1,6 +1,8 @@
 from ._version import __version__
 from .data import (
     TextMatrix,
+    TextArray,
+    TextVector,
     MatFile,
     RData,
     DatFile,
@@ -15,6 +17,8 @@ from .object_serialization import (
 __all__ = [
     "__version__",
     "TextMatrix",
+    "TextArray",
+    "TextVector",
     "MatFile",
     "RData",
     "DatFile",
