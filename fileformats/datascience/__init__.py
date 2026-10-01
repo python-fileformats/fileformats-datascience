@@ -11,7 +11,7 @@ from .data import (
 from .scripts import RFile, IPythonNotebook
 from .object_serialization import (
     Pickle,
-    Pickle___Gzip,
+    Pickle__Gzip,
 )
 
 __all__ = [
@@ -26,5 +26,5 @@ __all__ = [
     "RFile",
     "IPythonNotebook",
     "Pickle",
-    "Pickle___Gzip",
+    "Pickle__Gzip",
 ]
